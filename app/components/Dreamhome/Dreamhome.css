@@ -1,0 +1,13 @@
+.Dreamhome{
+    transition: .3;
+    background-size: contain;
+    background-position: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* font-size: 2rem; */
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}

@@ -1,0 +1,107 @@
+.TopProperty{
+    background-color: #131D4F;
+    color: white;
+    height: auto;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.TopProperty h5{
+    color: rgb(243, 100, 48);
+}
+.TopProperty h2{
+    margin-top: 10px;
+    font-size: 26px;
+    width: 20%;
+}
+.estate {
+    position: relative;
+}
+.estate img{
+    width: 100%;
+    border-radius: 20px;
+}
+.estate .estatedisc{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.estate .estatedisc p{
+    color: yellowgreen;
+}
+.estate .estatedisc h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divarrow{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:rgb(243, 100, 48);
+    font-size: 18px;
+    cursor: pointer;
+}
+.divarrow:hover{
+    background-color:rgb(243, 100, 48) ;
+    color: white;
+}
+.teamsocial{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: .3s;
+}
+.teamsocial i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;padding-top: 7px;
+    cursor: pointer;
+}
+.teamsocial i:hover{
+    background-color:rgb(243, 100, 48) ;
+    color: white;;
+}
+.estate:hover .teamsocial{
+    opacity: 1;
+    top: 20px;
+}
+.teamdisc{
+    width: 300px;
+    background-color: rgb(243, 100, 48);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    /* clip-path: polygon(0 20%,10% 0,90% 0,100% 20%,100% 100%,0 100%); */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: 5%;
+    opacity: 0;
+    transition: .3s;
+}
+.estate:hover .teamdisc{
+    background-color: rgb(243, 100, 48);
+    bottom: 0;
+    opacity: 1;
+}
+/*  style={{width:"300px",backgroundColor:"white",color:"orange",textAlign:"center",padding:"30px",clipPath:"polygon(0)"}} */

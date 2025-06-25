@@ -1,0 +1,105 @@
+.hero{
+    color: black;
+    padding: 10px;
+    position: relative;
+    background-color: #131D4F;
+    height: 100vh;
+}
+.hero img{
+    border-radius: 20px;
+    transition: .3s;
+}
+/* .hero img:hover{
+    transform: scale(.99);
+} */
+.maincontent{
+    position: absolute;
+    text-align: start;
+    z-index: 10;
+    font-size: 30px;
+    color: white;
+    left: 50px;
+    top: 50px;
+    height: 100vh;
+    width: 100%;
+}
+.topics{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.topics p,.topics2{
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 0 8px 32px rgba(0,0,0,.3);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.topics p:hover{
+    background-color: rgb(243, 100, 48);
+}
+.topics2{
+    width: 70%;
+    height: auto;
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.topics2 .texts{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid white; */
+}
+.topics2 .texts input{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.topics2 .texts p:hover{
+    color: rgb(243, 100, 48);
+}
+.topics2 div p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.topics2 .sea{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.topics2 .sea button{
+    background-color:rgb(243, 100, 48) !important ;
+    color: white;
+    transition: .3s;
+}
+.topics2 .sea button:hover{
+    transform: scale(1.1);
+}
+.bts{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+   
+}
+.bts button{
+     border-radius: 10px;
+     
+}
+.bts button:hover{
+    background-color:rgb(243, 100, 48) !important ;
+    border-color:rgb(243, 100, 48) ;
+}

@@ -1,0 +1,42 @@
+.PartmentTypes {
+    background-color: #131D4F;
+    text-align: center;
+    padding: 50px 20px;
+}
+.PartmentTypes p{
+    color: rgb(243, 100, 48);
+}
+.PartmentTypes h2{
+    font-size: 22px;
+}
+.PartmentTypes span{
+    color: greenyellow;    
+}
+.swapcart{
+   border: 1px solid rgb(179, 176, 176) !important;
+   display: flex;
+   flex-direction: column;
+   transform: .3s;
+   cursor: pointer;
+}
+.imgcart {
+    border: 1px solid rgb(179, 176, 176) !important;
+    border-radius: 5px;
+    color:white ;
+    margin-bottom: 30px;
+    transform: .3s;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+.swapcart p{
+    color: white;
+    font-size: 18px;
+}
+.swapcart:hover{
+    border: 1px solid yellowgreen !important;
+}
+.swapcart:hover .imgcart{
+    border: 1px solid yellowgreen !important;
+    color: greenyellow;
+}

@@ -1,0 +1,38 @@
+.OverView{
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(238, 236, 236);
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.overone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.overone .ov-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 100, 48);
+}
+.overone h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.overone p{
+    color: gray;
+}
+.ov-left ,.ov-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}

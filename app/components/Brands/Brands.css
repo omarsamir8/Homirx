@@ -1,0 +1,20 @@
+.Brands{
+    background-color: #131D4F;
+    width: 98%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.Brands img {
+transition: .3s;
+width: 50%;
+    
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brands img:hover{
+    filter: brightness(3);
+}

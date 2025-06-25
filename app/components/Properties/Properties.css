@@ -1,0 +1,41 @@
+.Properties{
+    padding: 50px 50px;
+    background-color: #131D4F;
+    width: 99%;
+    border-radius: 20px;
+    margin:20px auto;
+}
+.Properties p{
+    color: rgb(243, 100, 48);
+}
+.Properties h2{
+    margin-top: 10px;
+    font-size: 26px;
+    width: 40%;
+}
+.Properties span{
+    color: yellowgreen;
+}
+.Properties button{
+    margin-top:30px ;
+    color:yellowgreen ;
+    border-color:yellowgreen ;
+    outline: yellowgreen;
+}
+.Properties button:hover{
+    background-color: rgb(243, 100, 48);
+    color: white;
+    border-color:rgb(243, 100, 48) ;
+    outline: rgb(243, 100, 48);
+}
+.propertiesimage{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.propertiesimage img{
+    opacity: .7;
+}
+.propertiesimage img:hover{
+    opacity: .9;
+}

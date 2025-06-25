@@ -1,0 +1,22 @@
+.Achievements{
+    color: black;
+    padding: 20px;
+}
+.Achievements p{
+color: rgb(243, 100, 48);
+font-weight: bold;
+}
+.Achievements h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+.achieverate{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.achieverate h5{
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}

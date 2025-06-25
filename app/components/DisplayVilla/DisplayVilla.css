@@ -1,0 +1,59 @@
+.DisplayVilla{
+    color: black;
+    padding: 20px;
+}
+.displaydetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.displaydetails h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+.displaydetails p{
+    color: rgb(104, 102, 101);
+    font-weight: bold;
+}
+.displaybtn {
+    display: flex;
+    gap: 20px;
+}
+.displaybtn button:hover{
+    border-color:rgb(243, 100, 48) ;
+    background-color: rgb(243, 100, 48);
+    color: white;
+}
+.maingalaryimg{
+    width: 100%;
+}
+.maingalaryimg img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+}
+.gallary{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.smallimgs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* height: 30vh; */
+}
+.smallimgs img{
+    width: 23%;
+    height: 30vh;
+    filter: brightness(75%);
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.smallimgs img:hover{
+    filter: brightness(150%);
+}

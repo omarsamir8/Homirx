@@ -1,0 +1,22 @@
+.member{
+    height: 60vh;
+    width: 100%;
+    background-image: url('../../../public/Assets/gallery-3.jpg');
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.member h2{
+    font-size: 30px;
+}
+.member h3{
+    font-size: 22px;
+}
+.member span{
+    color: rgb(243, 100, 48);
+}

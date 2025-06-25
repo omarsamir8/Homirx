@@ -1,0 +1,89 @@
+.footer{
+    padding: 20px;
+    background-color: #131D4F;
+}
+.redpart{
+    width: 100%;
+    background-color: rgb(243, 100, 48);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.address-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(243, 100, 48);
+    text-align: center;
+    font-size: 20px;
+}
+.address-icon i{
+    margin-top: 10px;
+}
+.address{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.address p{
+    color: rgb(235, 231, 231);
+    font-size: 18px;
+}   
+.address h5{
+    margin-top: 10px;
+    font-size: 22px;
+}
+/* second part */
+.secondpart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sec1{
+    width: 50%;
+}
+.sec1 p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.sec1 i{
+    margin-left: 20px;
+}
+.quicklink{
+    width: 50%;
+}
+.sec1 i:hover{
+     color: rgb(243, 100, 48);
+     cursor: pointer;
+}
+.quicklink h3{
+font-weight: bold;
+font-size: 20px;
+}
+.quicklink div{
+    margin-top: 5px;
+}
+.quicklink ul{
+    margin-top: 20px;
+}
+.quicklink ul li{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.quicklink ul li:hover{
+    color: rgb(243, 100, 48);
+}
+.quicklink img{
+    transition: .3s;
+    width: 22%;
+}
+.quicklink img:hover{
+    transform: scale(.95);
+}

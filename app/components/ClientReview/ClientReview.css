@@ -1,0 +1,70 @@
+/* background-color: #131D4F; */
+.ClientReview{
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.clientimage{
+    width: 18%;
+}
+.clientimage img{
+    height: 370px;
+    border-radius: 10px;
+    width: 100%;
+}
+.revcontent{
+    width: 81%;
+}
+.revcontent h5{
+    color: rgb(243, 100, 48); 
+    font-weight: bold;
+}
+.revcontent h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.revcontent p{
+    width: 100%;
+    color: rgb(104, 103, 103);
+}
+.revline{
+    margin-top: 15px;
+}
+.revline,.revline2{   
+    height: 2px;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+.revline2{
+    background-color: rgb(243, 100, 48);
+    width: 22%;
+}
+.userdet{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.userdet img{
+    border-radius: 50%;
+}
+.userdet h3{
+    font-weight: bold;
+}
+.userdet p{
+    color: gray;
+}
+.divslines{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.divslines div{
+    height: 2px;
+    width: 100px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
